@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_namespace_packages
 
 setup(name='pythontest',
       version='1.0',
@@ -7,4 +7,5 @@ setup(name='pythontest',
       author='Roman Turas',
       author_email='salden.com@gmail.com',
       license='MIT',
-      packages=['prompt_toolkit'])
+      packages=find_namespace_packages()
+)
