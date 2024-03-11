@@ -13,6 +13,7 @@ print_formatted_text(HTML('<ansigreen>This is green</ansigreen>'))
 print_formatted_text(HTML('<skyblue>This is sky blue</skyblue>'))
 print_formatted_text(HTML('<seagreen>This is sea green</seagreen>'))
 print_formatted_text(HTML('<violet>This is violet</violet>'))
+print_formatted_text(HTML('<brown>This is brown</brown>'))
 
 if __name__ == '__main__':
     answer = prompt('Give me some input: ')
